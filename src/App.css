@@ -6,7 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.dasboard{
+  display: flex;
+  justify-content: space-between;
+}
+.dasboard .rightchart {
+  width: 50%;
+}
+.dasboard  .lefttable {
+  width: 40%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

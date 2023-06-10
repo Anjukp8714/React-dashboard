@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.css'
+
+
+
+
+import Chart from './Components/Chart';
+import Table from './Components/Table';
+import Menu from './Components/menu';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Menu/>
+    <div className="dasboard w-[90%] md:w-[90%] mx-auto my-0 pt-100 pb-100">
+      <div className='lefttable'> <Table/></div>
+     <div className='rightchart'><Chart/></div>
+      
+    </div>
     </div>
   );
 }

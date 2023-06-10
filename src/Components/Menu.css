@@ -1,0 +1,35 @@
+.menu {
+    background-color: #1f2937;
+  }
+  
+  .container {
+    max-width: 1200PX;
+    margin: 0 auto;
+    padding: 0 1rem;
+    DISPLAY: FLEX;
+    ALIGN-ITEMS: CENTER;
+  }
+  
+  .logo {
+    flex-shrink: 0;
+  }
+  
+  .logo h1 {
+    color: white;
+  }
+  
+  .menu-items {
+    display: flex;
+  }
+  
+  .menu-item {
+    color: #d1d5db;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  
+  .menu-item:hover {
+    color: white;
+    background-color: #374151;
+  }
+  
